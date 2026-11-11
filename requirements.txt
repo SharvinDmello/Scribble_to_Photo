@@ -1,0 +1,19 @@
+# Sketch2Real: Universal Doodle-to-Realistic Synthesizer
+# Supports both:
+# 1. Universal ControlNet (Draw anything: Pen, Pencil, Cycle, Tire, Shoe, etc.)
+# 2. Local Pix2Pix GAN (Trained on Berkeley edges2shoes)
+# Tuned for NVIDIA GTX 1650 (4GB VRAM) & Linux Python 3.10+
+
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.30.0,<0.33.0
+transformers>=4.40.0,<4.48.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+streamlit>=1.35.0,<1.40.0
+streamlit-drawable-canvas==0.9.3
+pyarrow>=14.0.0,<18.0.0
+pillow>=9.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0,<2.0.0
+tqdm>=4.66.0

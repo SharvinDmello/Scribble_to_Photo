@@ -1,0 +1,60 @@
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Model Checkpoints & Large Weights (GitHub rejects files > 100MB)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.safetensors
+checkpoints/*.onnx
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.onnx
+
+# Datasets (Downloaded datasets like edges2shoes, zip files)
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated Sample Images & Outputs
+samples/*.png
+samples/*.jpg
+samples/*.jpeg
+sample_*.png
+test_output*.png
+sketch2real_*.png
+
+# Hugging Face & Cache Dictionaries
+.cache/
+hf_cache/
+
+# Streamlit Configurations
+.streamlit/secrets.toml
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and Diagnostics
+*.log
