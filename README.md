@@ -121,4 +121,3 @@ Checkpoints will be saved automatically to `checkpoints/generator_latest.pth`, a
 ---
 
 ## 📄 License
-This project is licensed under the MIT License.
